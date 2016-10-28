@@ -63,6 +63,7 @@ def choose_from_user_input():
         os.system(CLEAR_COMMAND)
     random.shuffle(fortune)  #Finalizing the fortune list for the custom fortunes
     fortune.append("")
+    return fortune
 
 def choose_fortune(choose):
     '''
